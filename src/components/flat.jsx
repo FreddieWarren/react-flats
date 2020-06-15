@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Flat extends Component {
+const Flat = () => {
   handleClick = () => {
     this.props.selectFlat(this.props.index);
   }
